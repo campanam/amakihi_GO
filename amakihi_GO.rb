@@ -110,7 +110,7 @@ def fisher(go, fcomp, fref)
 	ref_go = $freqs[go]
 	not_comp_go = $totalcomp - comp_go
 	not_ref_go = $totalref - ref_go
-	denom = factorial(ref_go)*factorial(comp_go)*factorial(not_ref_go)*factorial(not_comp_go)
+	denom = factorial(ref_go)*factorial(comp_go)*factorial(not_ref_go)*factorial(not_comp_go)*factorial($totalcomp+$totalref)
 	numer = factorial(ref_go+comp_go)*factorial(not_comp_go+not_ref_go)*fcomp*fref
 	pval = numer.to_f/denom.to_f
 	puts go + "\t" + pval.to_s
