@@ -1,5 +1,5 @@
-# amakihi_GO
-Script to perform GO enrichment tests for avian malaria challenge experiments in 'amakihi  
+# amakihi_GO  
+Script to perform gene ontology (GO) enrichment tests for avian malaria challenge experiments in Hawai'i 'amakihi  
 
 Michael G. Campana, 2019  
 Smithsonian's National Zoo and Conservation Biology Institute  
@@ -46,14 +46,14 @@ The script will generate an output tab-separated values (TSV) file giving the fo
 It then provides a table of individual GO Terms with the following columns:  
 * GOTerm: GO identification number  
 * chi2_p-value: P-value for chi-squared test for GO enrichment  
-* RawSignificant(alpha=<VALUE>): Whether the GO term is significantly enriched based on the chosen alpha  
+* RawSignificant(alpha=VALUE): Whether the GO term is significantly enriched based on the chosen alpha  
 * BonferroniAdjusted_p-value: P-value after Bonferroni correction  
 * BonferroniSignificant: Whether the GO term is significantly enriched after Bonferroni correction  
 * Benjamini-Hochberg_CriticalValue: Critical value for enrichment using the Benjamini-Hochberg FDR  
-* Benjamini-HochbergSignificant(FDR=<VALUE>): Whether the GO term is significantly enriched based on the chosen FDR  
+* Benjamini-HochbergSignificant(FDR=VALUE): Whether the GO term is significantly enriched based on the chosen FDR  
 * FoldEnrichment: The GO term's enrichment factor between the treatment and the background  
-* GO_Name: Text name of the GO Term  
-* GO_Namespace: General type (namespace) of the GO_Term  
+* GO_Name: Text name of the GO term  
+* GO_Namespace: General type (namespace) of the GO term  
 * GO_Definition: Text definition of the GO term  
 * AllGO-Associated_Genes: List of genes in total database associated with GO term  
 * TestGO-Associated_Genes: List of genes in treatment dataset associated with GO term  
