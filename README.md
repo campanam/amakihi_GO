@@ -12,7 +12,7 @@ Please cite:
 Paxton, K.L., Cassin-Sackett, L., Atkinson, C.T., Videvall, E., Campana, M.G., Fleischer, R.C. In preparation. Gene expression reveals immune response strategies by naïve Hawaiian honeycreepers to experimental infection with introduced avian malaria.  
 
 ## Installation  
-The script requires [Ruby](https://www.ruby-lang.org/). After installation of the language, you can download and execute the script using the following commands:  
+The script requires [Ruby](https://www.ruby-lang.org/). After installation of the language, you can download and install the script using the following commands:  
 `git clone https://github.com/campanam/amakihi_GO`  
 `mv amakihi_GO/amakihi_GO.rb /some/directory/`  
 `cd /some/directory`  
