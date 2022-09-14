@@ -35,7 +35,7 @@ The script requires [Ruby](https://www.ruby-lang.org/). After installation of th
 4. Choose an alpha and an FDR value to evaluate GO-term enrichment significance.  
 
 5. Execute the script using:  
-`ruby amakihi_GO.rb <gene_GO_table.tsv> <treatment_comparison.csv> \<alpha\> \<FDR\> > <output.tsv>  
+`ruby amakihi_GO.rb <gene_GO_table.tsv> <treatment_comparison.csv> <alpha> <FDR> > <output.tsv>`  
 
 ## Output  
 The script will generate an output tab-separated values (TSV) file giving the following summary statistics information:  
