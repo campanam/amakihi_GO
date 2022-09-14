@@ -46,11 +46,11 @@ The script will generate an output tab-separated values (TSV) file giving the fo
 It then provides a table of individual GO Terms with the following columns:  
 * GOTerm: GO identification number  
 * chi2_p-value: P-value for chi-squared test for GO enrichment  
-* RawSignificant(alpha=VALUE): Whether the GO term is significantly enriched based on the chosen alpha  
+* RawSignificant(alpha=\<VALUE\>): Whether the GO term is significantly enriched based on the chosen alpha  
 * BonferroniAdjusted_p-value: P-value after Bonferroni correction  
 * BonferroniSignificant: Whether the GO term is significantly enriched after Bonferroni correction  
 * Benjamini-Hochberg_CriticalValue: Critical value for enrichment using the Benjamini-Hochberg FDR  
-* Benjamini-HochbergSignificant(FDR=VALUE): Whether the GO term is significantly enriched based on the chosen FDR  
+* Benjamini-HochbergSignificant(FDR=\<VALUE\>): Whether the GO term is significantly enriched based on the chosen FDR  
 * FoldEnrichment: The GO term's enrichment factor between the treatment and the background  
 * GO_Name: Text name of the GO term  
 * GO_Namespace: General type (namespace) of the GO term  
