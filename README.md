@@ -11,13 +11,13 @@ The software is made available under the Smithsonian Institution [terms of use](
 Please cite:  
 Paxton, K.L., Cassin-Sackett, L., Atkinson, C.T., Videvall, E., Campana, M.G., Fleischer, R.C. In preparation. Gene expression reveals immune response strategies by naïve Hawaiian honeycreepers to experimental infection with introduced avian malaria.  
 
-# Installation  
+## Installation  
 The script requires [Ruby](https://www.ruby-lang.org/). After installation of the language, you can download and execute the script using the following commands:  
 `git clone https://github.com/campanam/amakihi_GO`  
 `mv amakihi_GO/amakihi_GO.rb /some/directory/`  
 `cd /some/directory`  
 
-# Usage  
+## Usage  
 1. Place the gene ontology file (must be named `go.obo`) in the directory where you will execute the `amakihi_GO.rb` script. Gene ontology files are obtainable from [here](http://geneontology.org/docs/download-ontology/) [1-2].  
 
 2. Generate a tab-separated headerless table associating each gene with its GO terms. The first column gives the gene name. The second lists the GO terms, separated by commas. For example:  
@@ -37,7 +37,7 @@ The script requires [Ruby](https://www.ruby-lang.org/). After installation of th
 5. Execute the script using:  
 `ruby amakihi_GO.rb <gene_GO_table.tsv> <treatment_comparison.csv> <alpha> <FDR> > <output.tsv>  
 
-# Output  
+## Output  
 The script will generate an output tab-separated values (TSV) file giving the following summary statistics information:  
 * TotalDEGs: Total number of DEGs observed in the treatment comparison  
 * DEGs with GO Terms: Total number of DEGs that have assigned GO terms  
@@ -58,6 +58,6 @@ It then provides a table of individual GO Terms with the following columns:
 * AllGO-Associated_Genes: List of genes in total database associated with GO term  
 * TestGO-Associated_Genes: List of genes in treatment dataset associated with GO term  
 
-# References  
+## References  
 1. Ashburner *et al.* 2000. Gene ontology: tool for the unification of biology. *Nat. Genet.* 25: 25-29.  
 2. Gene Ontology Consortium. 2021. The Gene Ontology resource: enriching a GOld mine. *Nucleic Acids Res.* 49: D325-D334.  
