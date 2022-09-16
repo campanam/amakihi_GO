@@ -22,7 +22,7 @@ The script requires [Ruby](https://www.ruby-lang.org/). After installation of th
 
 2. Generate a tab-separated headerless table associating each gene with its GO terms. The first column gives the gene name. The second lists the GO terms, separated by commas. For example:  
 `Hmun_k71_000001.g101	GO:0003743,GO:0006413`  
-`Hmun_k71_000001.g109	GO:0003735,GO:0005622,GO:0005840,GO:0006412,GO:0003735,GO:0006412,GO:0015935`  
+`Hmun_k71_000001.g109	GO:0003735,GO:0005622,GO:0005840,GO:0006412`  
 `Hmun_k71_000001.g112	GO:0004930,GO:0007186,GO:0016021`  
 `Hmun_k71_000001.g114	GO:0004930,GO:0007186,GO:0016021`  
 
