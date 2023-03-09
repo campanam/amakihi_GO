@@ -9,7 +9,7 @@ The software is made available under the Smithsonian Institution [terms of use](
 
 ## Citation  
 Please cite:  
-Paxton, K.L., Cassin-Sackett, L., Atkinson, C.T., Videvall, E., Campana, M.G., Fleischer, R.C. In preparation. Gene expression reveals immune response strategies by naïve Hawaiian honeycreepers to experimental infection with introduced avian malaria.  
+Paxton, K.L., Cassin-Sackett, L., Atkinson, C.T., Videvall, E., Campana, M.G., Fleischer, R.C. 2023. Gene expression reveals immune response strategies of naïve Hawaiian honeycreepers experimentally infected with introduced avian malaria. *Journal of Heredity*. [doi: 10.1093/jhered/esad017](https://dx.doi.org/10.1093/jhered/esad017).  
 
 ## Installation  
 The script requires [Ruby](https://www.ruby-lang.org/). After installation of the language, you can download and install the script using the following commands:  
